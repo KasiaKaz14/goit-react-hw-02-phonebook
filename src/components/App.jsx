@@ -18,7 +18,7 @@ export class App extends Component {
     number: '',
   };
 
-  nanoid = this.nanoid();
+  nanoid = nanoid();
 
   handleSubmit = evt => {
     evt.preventDefault();
@@ -80,6 +80,7 @@ export class App extends Component {
       <div
         style={{
           display: 'flex',
+          flexDirection: 'column',
           justifyContent: 'center',
           alignItems: 'center',
           fontSize: 40,

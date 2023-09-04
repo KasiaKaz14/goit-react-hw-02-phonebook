@@ -4,7 +4,6 @@
   list-style-type: none;
   padding: 10px;
   margin-bottom: 0;
-  height: 100px;
 }
 
 .listItem {
@@ -19,6 +18,7 @@
   border-radius: 5px;
   color: brown;
   cursor: pointer;
+  margin-left: 5px;
 }
 
 .deleteButton:hover,

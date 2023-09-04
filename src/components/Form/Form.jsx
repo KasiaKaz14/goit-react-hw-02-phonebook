@@ -23,7 +23,9 @@ export const Form = ({ onSubmit }) => {
           required
           placeholder="Enter phone number"
         />
-        <button type="submit">Add contact</button>
+        <button className={css.button} type="submit">
+          Add contact
+        </button>
       </label>
     </form>
   );
